@@ -1,0 +1,199 @@
+[2023-02-07 07:49:29] Preparing migration ID 7
+[2023-02-07 07:49:29] Removing old result files
+[2023-02-07 07:49:29] Resetting error markers
+[2023-02-07 07:49:29] Resetting error messages in mappings
+[2023-02-07 07:49:29] Checking if source and targets are accessible
+[2023-02-07 07:49:29] Checking availability of repo
+[2023-02-07 07:49:29] Using workdir /opt/aagm/git/280
+[2023-02-07 07:49:29] Configuring private key to use: GitHub -> /opt/aagm/git/credential-1.key
+[2023-02-07 07:49:29] Already cloned. Getting refs..
+[2023-02-07 07:49:31] ...is available
+[2023-02-07 07:49:31] Checking if Restman is available @ https://host.docker.internal:8444/restman/1.0/
+[2023-02-07 07:49:31] Response code is 200
+[2023-02-07 07:49:31] Initializing pipelines
+[2023-02-07 07:49:31] Catalog all resources from L7 8444
+[2023-02-07 07:49:31] Add missing records in tables ...
+[2023-02-07 07:49:31] ... finished
+[2023-02-07 07:49:31] Importing active connectors from L7 8444
+[2023-02-07 07:49:31] Importing cassandra connections from L7 8444
+[2023-02-07 07:49:31] Importing cluster properties from L7 8444
+[2023-02-07 07:49:31] Importing custom key values from L7 8444
+[2023-02-07 07:49:31] Importing email listeners from L7 8444
+[2023-02-07 07:49:31] Importing encapsulated assertions from L7 8444
+[2023-02-07 07:49:31] Importing firewall rules from L7 8444
+[2023-02-07 07:49:31] Importing generic entities from L7 8444
+[2023-02-07 07:49:31] Importing groups from L7 8444
+[2023-02-07 07:49:31] Importing http configurations from L7 8444
+[2023-02-07 07:49:31] Importing identity providers from L7 8444
+[2023-02-07 07:49:31] Importing interface tags from L7 8444
+[2023-02-07 07:49:32] Importing JDBC connections from L7 8444
+[2023-02-07 07:49:32] Importing JMS destinations from L7 8444
+[2023-02-07 07:49:32] Importing listen ports from L7 8444
+[2023-02-07 07:49:32] Importing policy backed services from L7 8444
+[2023-02-07 07:49:32] Importing private keys from L7 8444
+[2023-02-07 07:49:32] Importing revocation checking policies from L7 8444
+[2023-02-07 07:49:32] Importing roles from L7 8444
+[2023-02-07 07:49:32] Importing scheduled tasks from L7 8444
+[2023-02-07 07:49:32] Importing passwords from L7 8444
+[2023-02-07 07:49:32] Importing security zones from L7 8444
+[2023-02-07 07:49:32] Importing server module files from L7 8444
+[2023-02-07 07:49:32] Importing SiteMinder configurations from L7 8444
+[2023-02-07 07:49:33] Importing solution kits from L7 8444
+[2023-02-07 07:49:33] Importing trusted certificates from L7 8444
+[2023-02-07 07:49:33] Importing resource documents from L7 8444
+[2023-02-07 07:49:33] Importing users from L7 8444
+[2023-02-07 07:49:33] Importing folders from L7 8444
+[2023-02-07 07:49:33] Importing folders from L7 8444
+[2023-02-07 07:49:33] Importing policies from L7 8444
+[2023-02-07 07:49:33] Importing services from L7 8444
+[2023-02-07 07:49:34] Updating API deployments with newly imported data
+[2023-02-07 07:49:34] Finding deployments for API APIIDA
+[2023-02-07 07:49:34]    |-- Found on L7 8444 Folder Name: APIIDA ID: 5662218eef8f475e5119b34ffade20db
+[2023-02-07 07:49:34]        Adding deployment info to services within solution
+[2023-02-07 07:49:34]    |-- Found on L7 9444 Folder Name: APIIDA ID: 5662218eef8f475e5119b34ffade20db
+[2023-02-07 07:49:34]        Adding deployment info to services within solution
+[2023-02-07 07:49:34]    |-- Found on L7 10444 Folder Name: APIIDA ID: 5662218eef8f475e5119b34ffade20db
+[2023-02-07 07:49:34]        Adding deployment info to services within solution
+[2023-02-07 07:49:34]    L-- Finished finding deployments
+[2023-02-07 07:49:34] Finding deployments for API Demo
+[2023-02-07 07:49:34]    |-- Found on L7 8444 Folder Name: Demo ID: b56f10f3c04cd607eb080dce4b0426e5
+[2023-02-07 07:49:34]        Adding deployment info to services within solution
+[2023-02-07 07:49:34]    |-- Found on L7 10444 Folder Name: Demo ID: b56f10f3c04cd607eb080dce4b0426e5
+[2023-02-07 07:49:34]        Adding deployment info to services within solution
+[2023-02-07 07:49:34]    L-- Finished finding deployments
+[2023-02-07 07:49:34] Finding deployments for API Gateway REST Management Service
+[2023-02-07 07:49:34]    |-- Found on L7 8444 Service Name: Gateway REST Management Service ID: c73ccd2cee8b902e45b3be46f00d91f7
+[2023-02-07 07:49:34]    L-- Finished finding deployments
+[2023-02-07 07:49:34] Finding deployments for API PSD2 RTS 1.3
+[2023-02-07 07:49:34]    |-- Found on L7 10444 Folder Name: PSD2 RTS 1.3 ID: 17228ed6b1117a597853019558e52223
+[2023-02-07 07:49:34]        Adding deployment info to services within solution
+[2023-02-07 07:49:34]    L-- Finished finding deployments
+[2023-02-07 07:49:34] Importing dependency graph from L7 8444
+[2023-02-07 07:49:34] Unable to obtain restman resource for Root Node
+
+[2023-02-07 07:49:34] ...Finished
+[2023-02-07 07:49:34] Creating bundle
+[2023-02-07 07:49:34] Making sure the workdir contains the current state of the repo
+[2023-02-07 07:49:34] Configuring private key to use: GitHub -> /opt/aagm/git/credential-1.key
+[2023-02-07 07:49:34] Pulling from repo into working directory /opt/aagm/git/280
+[2023-02-07 07:49:36] Already up to date.
+
+[2023-02-07 07:49:36] 
+[2023-02-07 07:49:36] Migrating branch master
+[2023-02-07 07:49:36] Checkout branch master
+[2023-02-07 07:49:37] Your branch is up to date with 'origin/master'.
+
+[2023-02-07 07:49:37] Reading Apiida Enhanced Format from /opt/aagm/git/280
+[2023-02-07 07:49:37] Read finished
+[2023-02-07 07:49:37] Remove elements, that are included in Solution Kits or Libraries
+[2023-02-07 07:49:37] This API requires 0 shared libraries
+[2023-02-07 07:49:37] Search and remove "virtual" elements that are placeholders for actual elements and cannot be migrated
+[2023-02-07 07:49:37] Exporting folder tree
+[2023-02-07 07:49:37] Making sure the workdir contains the current state of the repo
+[2023-02-07 07:49:37] Configuring private key to use: GitHub -> /opt/aagm/git/credential-1.key
+[2023-02-07 07:49:37] Pulling from repo into working directory /opt/aagm/git/280
+[2023-02-07 07:49:40] Already up to date.
+
+[2023-02-07 07:49:40] 
+[2023-02-07 07:49:40] Checkout branch master
+[2023-02-07 07:49:40] Your branch is up to date with 'origin/master'.
+
+[2023-02-07 07:49:40] Adding missing folders to the bundle
+[2023-02-07 07:49:41] Bundle XML has 42557 bytes
+[2023-02-07 07:49:41] Creating mappings
+[2023-02-07 07:49:41] Creating mappings for target: L7 8444
+[2023-02-07 07:49:41] 6 mappings created from bundle
+[2023-02-07 07:49:41] Performing automatic mapping
+[2023-02-07 07:49:41] Updating mappings for target L7 8444 accessing node L7 8444
+[2023-02-07 07:49:41] Processing 6 mappings
+[2023-02-07 07:49:42] Trying to auto-map folders included in the migration
+[2023-02-07 07:49:42] Performing mapping for FOLDER Demo with ID b56f10f3c04cd607eb080dce4b0426e5by []
+[2023-02-07 07:49:42] Found it! Mapped by ID to Demo
+[2023-02-07 07:49:42] Setting Demo to default action for this type from configuration
+[2023-02-07 07:49:42] Trying to auto-map everything else
+[2023-02-07 07:49:42] Performing mapping for SERVER_MODULE_FILE Delay with ID b56f10f3c04cd607eb080dce4b0427b1by []
+[2023-02-07 07:49:42] Found it! Mapped by ID to Delay
+[2023-02-07 07:49:42] Setting Delay to default action for this type from configuration
+[2023-02-07 07:49:42] Performing mapping for SERVICE Demo Alarm API with ID b56f10f3c04cd607eb080dce4b042815by []
+[2023-02-07 07:49:42] Found it! Mapped by ID to Demo Alarm API
+[2023-02-07 07:49:42] Setting Demo Alarm API to default action for this type from configuration
+[2023-02-07 07:49:42] Setting Demo Alarm API to the stored action / mapping for this element
+[2023-02-07 07:49:42] Setting action to stored default mapping
+[2023-02-07 07:49:42] Performing mapping for SERVICE Parrot API with ID b56f10f3c04cd607eb080dce4b042769by []
+[2023-02-07 07:49:42] Found it! Mapped by ID to Parrot API
+[2023-02-07 07:49:42] Setting Parrot API to default action for this type from configuration
+[2023-02-07 07:49:42] Performing mapping for SERVICE Parrot API Backend with ID b56f10f3c04cd607eb080dce4b0427caby []
+[2023-02-07 07:49:42] Found it! Mapped by ID to Parrot API Backend
+[2023-02-07 07:49:42] Setting Parrot API Backend to default action for this type from configuration
+[2023-02-07 07:49:42] Performing mapping for SSG_KEY_ENTRY SSL with ID 00000000000000000000000000000002:SSLby []
+[2023-02-07 07:49:42] Found it! Mapped by ID to ssl
+[2023-02-07 07:49:42] Setting SSL to default action for this type from configuration
+[2023-02-07 07:49:42] Updating variables
+[2023-02-07 07:49:42] Extracting template variables for migration ID 7
+[2023-02-07 07:49:42] Checking 96 variables
+[2023-02-07 07:49:42] 11 variables where imported
+[2023-02-07 07:49:42] Replace variables with values from AAGM
+[2023-02-07 07:49:42] Replacing variables with values stored in AAGM for Demo &rarr; Demo Alarm API
+[2023-02-07 07:49:42] Replacing variables with values stored in AAGM for Demo &rarr; Parrot API
+[2023-02-07 07:49:42] Replacing variables with values stored in AAGM for Demo &rarr; Parrot API Backend
+[2023-02-07 07:49:42] Prepare finished
+[2023-02-07 07:49:42] Finished
+
+
+[2023-02-07 07:51:11] Performing migration ID 7
+[2023-02-07 07:51:11] Removing old result files
+[2023-02-07 07:51:11] Resetting error markers
+[2023-02-07 07:51:11] Resetting error messages in mappings
+[2023-02-07 07:51:11] Executing pipelines steps
+[2023-02-07 07:51:11] Executing pipeline jobs
+[2023-02-07 07:51:11] All steps executed
+[2023-02-07 07:51:11] Event migrationStarted triggered
+[2023-02-07 07:51:11] Updating context variables
+[2023-02-07 07:51:11] Updating template variables for migration ID 7
+[2023-02-07 07:51:11] Get variables from DB
+[2023-02-07 07:51:11] Found 11 variables in database
+[2023-02-07 07:51:11] --------------------------------------
+[2023-02-07 07:51:11] Migrating to target 1 of 1
+[2023-02-07 07:51:11] Processing target: L7 8444
+[2023-02-07 07:51:11] Checking if L7 8444 is accessible
+[2023-02-07 07:51:11] Checking if Restman is available @ https://host.docker.internal:8444/restman/1.0/
+[2023-02-07 07:51:11] Response code is 200
+[2023-02-07 07:51:11] Getting everything set up
+[2023-02-07 07:51:11] Backing up SERVICE b56f10f3c04cd607eb080dce4b042815
+[2023-02-07 07:51:12] Backing up SERVICE b56f10f3c04cd607eb080dce4b042769
+[2023-02-07 07:51:12] Backing up SERVICE b56f10f3c04cd607eb080dce4b0427ca
+[2023-02-07 07:51:12] Importing folder structure
+[2023-02-07 07:51:12] No folder file. Skipping import step.
+[2023-02-07 07:51:12] Applying mappings
+[2023-02-07 07:51:12] Create mappings file for target L7 8444
+[2023-02-07 07:51:12] Migrating to L7 8444
+[2023-02-07 07:51:12] Importing bundle via Restman
+[2023-02-07 07:51:14] Analysing results
+[2023-02-07 07:51:14] Analyzing results for L7 8444
+[2023-02-07 07:51:14] Found results for 6 mappings
+[2023-02-07 07:51:14] Action taken for FOLDER b56f10f3c04cd607eb080dce4b0426e5 is UsedExisting
+[2023-02-07 07:51:14] Action taken for SSG_KEY_ENTRY 00000000000000000000000000000002:SSL is UsedExisting
+[2023-02-07 07:51:14] Action taken for SERVER_MODULE_FILE b56f10f3c04cd607eb080dce4b0427b1 is UsedExisting
+[2023-02-07 07:51:14] Action taken for SERVICE b56f10f3c04cd607eb080dce4b042769 is UpdatedExisting
+[2023-02-07 07:51:14] Action taken for SERVICE b56f10f3c04cd607eb080dce4b0427ca is UpdatedExisting
+[2023-02-07 07:51:14] Action taken for SERVICE b56f10f3c04cd607eb080dce4b042815 is UpdatedExisting
+[2023-02-07 07:51:14] Updating digital twin with changes from the migration
+[2023-02-07 07:51:14] Updating twin of SERVICE b56f10f3c04cd607eb080dce4b042815
+[2023-02-07 07:51:15] Importing direct dependencies of Root Node
+[2023-02-07 07:51:15] debug
+[2023-02-07 07:51:15] Updating twin of SERVICE b56f10f3c04cd607eb080dce4b042769
+[2023-02-07 07:51:15] Importing direct dependencies of Root Node
+[2023-02-07 07:51:15] debug
+[2023-02-07 07:51:15] Updating twin of SERVICE b56f10f3c04cd607eb080dce4b0427ca
+[2023-02-07 07:51:15] Importing direct dependencies of Root Node
+[2023-02-07 07:51:15] debug
+[2023-02-07 07:51:15] Executing pipelines steps
+[2023-02-07 07:51:15] Executing pipeline jobs
+[2023-02-07 07:51:15] All steps executed
+[2023-02-07 07:51:15] Finding deployments for API Demo
+[2023-02-07 07:51:15]    |-- Found on L7 8444 Folder Name: Demo ID: b56f10f3c04cd607eb080dce4b0426e5
+[2023-02-07 07:51:15]        Adding deployment info to services within solution
+[2023-02-07 07:51:15]    |-- Found on L7 10444 Folder Name: Demo ID: b56f10f3c04cd607eb080dce4b0426e5
+[2023-02-07 07:51:15]        Adding deployment info to services within solution
+[2023-02-07 07:51:15]    L-- Finished finding deployments
+
